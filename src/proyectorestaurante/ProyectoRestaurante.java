@@ -18,4 +18,9 @@ public class ProyectoRestaurante {
     System.out.println("Adios mundo");
   }
   
+  public void holaMundo(){
+    System.out.println("Hola mundo");
+}
+}
+  
 }
