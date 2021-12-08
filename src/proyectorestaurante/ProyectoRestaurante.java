@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package proyectorestaurante;
-
+//Hola
 /**
  *
  * @author Juan M. Hdez
@@ -17,15 +17,15 @@ public class ProyectoRestaurante {
     System.out.println("Hola mundo");
     System.out.println("Adios mundo");
   }
+  //Adios
+  
+  
+  
   
   public void holaMundo(){
     System.out.println("Hola mundo");
-<<<<<<< HEAD
-    System.out.println("Holaaaaaaaaaa");
-=======
+
     System.out.println("Adios");
->>>>>>> conflicto
-}
 }
   
 }
