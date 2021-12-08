@@ -20,7 +20,11 @@ public class ProyectoRestaurante {
   
   public void holaMundo(){
     System.out.println("Hola mundo");
+<<<<<<< HEAD
     System.out.println("Holaaaaaaaaaa");
+=======
+    System.out.println("Adios");
+>>>>>>> conflicto
 }
 }
   
