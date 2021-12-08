@@ -10,5 +10,7 @@ package modelo;
  * @author Juan M. Hdez
  */
 public class Persona {
+  public String nombre;
+   
   
 }
