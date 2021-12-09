@@ -9,4 +9,7 @@ public class ProyectoRestaurante {
     System.out.println("Hola mundo");
   }
   
+  public void despedirse(){
+    System.out.println("Adios");
+  } 
 }
