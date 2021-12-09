@@ -9,6 +9,11 @@ public class ProyectoRestaurante {
     System.out.println("Hola mundo");
   }
   
+  public void saludar(){
+    System.out.println("Hola a todos");
+    
+  }
+  
   public void despedirse(){
     System.out.println("Adios");
   } 
