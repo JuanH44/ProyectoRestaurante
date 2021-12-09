@@ -10,5 +10,7 @@ package modelo;
  * @author Juan M. Hdez
  */
 public class Cliente {
+  public int id;
+  public String nombre;
   
 }

@@ -28,6 +28,7 @@ public class MainFrame extends javax.swing.JFrame {
     btnPlatillo = new javax.swing.JButton();
     btnRestaurante = new javax.swing.JButton();
     pnlEncabezado = new javax.swing.JPanel();
+    jLabel1 = new javax.swing.JLabel();
     pnlContenido = new javax.swing.JPanel();
 
     javax.swing.GroupLayout jFrame1Layout = new javax.swing.GroupLayout(jFrame1.getContentPane());
@@ -107,15 +108,23 @@ public class MainFrame extends javax.swing.JFrame {
         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
     );
 
+    jLabel1.setText("Menú");
+
     javax.swing.GroupLayout pnlEncabezadoLayout = new javax.swing.GroupLayout(pnlEncabezado);
     pnlEncabezado.setLayout(pnlEncabezadoLayout);
     pnlEncabezadoLayout.setHorizontalGroup(
       pnlEncabezadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGap(0, 0, Short.MAX_VALUE)
+      .addGroup(pnlEncabezadoLayout.createSequentialGroup()
+        .addGap(315, 315, 315)
+        .addComponent(jLabel1)
+        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
     );
     pnlEncabezadoLayout.setVerticalGroup(
       pnlEncabezadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGap(0, 60, Short.MAX_VALUE)
+      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlEncabezadoLayout.createSequentialGroup()
+        .addContainerGap(27, Short.MAX_VALUE)
+        .addComponent(jLabel1)
+        .addGap(19, 19, 19))
     );
 
     javax.swing.GroupLayout pnlContenidoLayout = new javax.swing.GroupLayout(pnlContenido);
@@ -217,6 +226,7 @@ public class MainFrame extends javax.swing.JFrame {
   private javax.swing.JButton btnRepartidor;
   private javax.swing.JButton btnRestaurante;
   private javax.swing.JFrame jFrame1;
+  private javax.swing.JLabel jLabel1;
   private javax.swing.JPanel jPanel1;
   private javax.swing.JPanel pnlContenido;
   private javax.swing.JPanel pnlEncabezado;
