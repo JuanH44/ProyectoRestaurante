@@ -15,6 +15,10 @@ public class ProyectoRestaurante {
   }
   
   public void despedirse(){
+<<<<<<< HEAD
     System.out.println("Adios adios a todos");
+=======
+    System.out.println("Hasta luego");
+>>>>>>> persona
   } 
 }
