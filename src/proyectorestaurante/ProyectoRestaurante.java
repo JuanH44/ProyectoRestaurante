@@ -13,7 +13,7 @@ public class ProyectoRestaurante {
     System.out.println("Hola a todos");
     
   }
-  
+  //Holaaa
   public void despedirse(){
     System.out.println("Hasta luego");
   } 
