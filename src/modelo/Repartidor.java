@@ -18,6 +18,14 @@ public class Repartidor extends Persona {
   public Repartidor(String nombre, String apellido, String telefono, String direccion) {
     super(nombre, apellido, telefono, direccion);
   }
+
+  public Repartidor(int id, String Transporte, int tiempo, double calificacion, String nombre, String apellido, String telefono, String direccion) {
+    super(nombre, apellido, telefono, direccion);
+    this.id = id;
+    this.Transporte = Transporte;
+    this.tiempo = tiempo;
+    this.calificacion = calificacion;
+  }
   
   @Override
   public void hola() {

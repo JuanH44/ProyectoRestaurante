@@ -1,3 +1,4 @@
+
 package modelo;
 
 public abstract class  Persona {
@@ -48,3 +49,4 @@ public abstract class  Persona {
   }
  
 }
+
