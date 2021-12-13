@@ -1,6 +1,6 @@
 package modelo;
 
-public abstract class Persona {
+public abstract class  Persona {
   protected String nombre;
   protected String apellido;
   protected String telefono;
@@ -13,7 +13,7 @@ public abstract class Persona {
     this.direccion = direccion;
   }
 
-  public void hola();
+  public abstract void hola();
  
   public String getNombre() {
     return nombre;
@@ -46,7 +46,5 @@ public abstract class Persona {
   public void setDireccion(String direccion) {
     this.direccion = direccion;
   }
-  
-  
-
+ 
 }
